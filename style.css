@@ -6,7 +6,7 @@ body {
 
 
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f4e661-9a5e-4b69-bbf3-b4995e3c2576/der97ie-0f7fc6ca-a834-4b6c-8a62-34c713b474eb.png/v1/fill/w_670,h_1193,q_70,strp/cloudy_with_a_chance_of_meatballs_background_by_markendria_der97ie-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjA0OCIsInBhdGgiOiJcL2ZcLzI2ZjRlNjYxLTlhNWUtNGI2OS1iYmYzLWI0OTk1ZTNjMjU3NlwvZGVyOTdpZS0wZjdmYzZjYS1hODM0LTRiNmMtOGE2Mi0zNGM3MTNiNDc0ZWIucG5nIiwid2lkdGgiOiI8PTExNTEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.tQIETovVRVFHWUnrY_kgohhjF7uvhkn_w5P1sjEtfzY");
   background-size: 400px;
   border-radius: 30px;
   border: 1px solid rgb(255,245,227);
@@ -14,7 +14,7 @@ body {
 
 .main{
   display: flex;
-  text-align: left;
+  text-align: down;
   justify-content: space-around;
 }
 

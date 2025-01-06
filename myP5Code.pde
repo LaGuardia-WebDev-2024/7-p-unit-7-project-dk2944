@@ -5,6 +5,8 @@ void setup() {
 
 //🎯Variable Declarations Go Here
 var fireworkX = 20;
+var meatballY=78;
+var minimeatballY=78;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -17,9 +19,12 @@ draw = function(){
   }
   
   //🎯Animation Code Goes Here
-  rect(fireworkX, 15, 10, 10);
-  
+  fill (153, 77, 28)
+  ellipse(132,meatballY,40,40)
   fireworkX = fireworkX + 1;
+meatballY=meatballY+1
+ellipse(248,minimeatballY,20,20)
+minimeatballY=minimeatballY+2;
 
 }
 
