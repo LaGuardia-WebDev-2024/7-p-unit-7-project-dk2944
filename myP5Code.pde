@@ -7,6 +7,8 @@ void setup() {
 var fireworkX = 20;
 var meatballY=78;
 var minimeatballY=78;
+var bigmeatballY=78;
+var minisizeY=20;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -23,8 +25,11 @@ draw = function(){
   ellipse(132,meatballY,40,40)
   fireworkX = fireworkX + 1;
 meatballY=meatballY+1
-ellipse(248,minimeatballY,20,20)
+ellipse(248,minimeatballY,minisizeY,minisizeY)
 minimeatballY=minimeatballY+2;
+ellipse(297,bigmeatballY,50,50)
+bigmeatballY=bigmeatballY+4;
+minisizeY=minisizeY+1
 
 }
 
