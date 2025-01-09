@@ -30,7 +30,7 @@ minimeatballY=minimeatballY+2;
 ellipse(297,bigmeatballY,50,50)
 bigmeatballY=bigmeatballY+4;
 minisizeY=minisizeY+1
-
+minimeatballY=mouseY
 }
 
 //🟡Extra FUN Features Ms. Hall Added
